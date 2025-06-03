@@ -38,8 +38,7 @@
 ### 1. 레포 클론 및 환경 준비
 
 ```bash
-git clone https://github.com/your-team/sonnuri.git
-cd sonnuri
+git clone https://github.com/ParkTjgus/sonnuri.git
 ```
 ### 2. Docker 환경에서 실행
 1. 본 프로젝트를 실행하기 위해서는 docker가 필요합니다. 
