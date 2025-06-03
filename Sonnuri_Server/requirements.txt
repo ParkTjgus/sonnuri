@@ -1,0 +1,17 @@
+tensorflow==2.15.0
+scikit-learn==1.6.1
+joblib==1.5.1
+numpy==1.26.3
+pandas==2.2.3
+opencv-contrib-python==4.9.0.80
+Pillow==10.2.0
+mediapipe==0.10.9
+matplotlib==3.8.2
+protobuf==3.20.3
+
+fastapi
+uvicorn
+nest_asyncio
+python-multipart
+websockets
+pillow

@@ -1,0 +1,6 @@
+[
+  {"id": 1, "word": "ㅂ", "type": "jamo", "video_url": "/static/videos/ㅂ/ㅂ.mp4"},
+  {"id": 2, "word": "ㅏ", "type": "jamo",  "video_url": "/static/videos/ㅏ/ㅏ.mp4"},
+  {"id": 3, "word": "아니요", "type": "word",  "video_url": "/static/videos/아니다/아니다.mp4"},
+  {"id": 4, "word": "얼마", "type": "word",  "video_url": "/static/videos/얼마/얼마.mp4"}
+]

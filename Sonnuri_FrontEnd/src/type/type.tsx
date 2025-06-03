@@ -1,0 +1,1 @@
+export type WordItem = { id: number; word: string; type: string; video_url: string };

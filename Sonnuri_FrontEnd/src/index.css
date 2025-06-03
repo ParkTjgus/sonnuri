@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "KoPubBatang";
+  /* font-weight: 100; */
+  /* font-style: normal; */
+  src: url("../src/styles/fonts/KoPubWorld_Batang_Bold.ttf") format("truetype");
+}

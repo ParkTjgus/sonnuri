@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: ./Sonnuri_FrontEnd
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./Sonnuri_FrontEnd:/app
+      - /app/node_modules        # 컨테이너 내부 의존성 캐시
+    stdin_open: true
+    tty: true
+    command: ["yarn", "dev", "--host"]
+
+  backend:
+    build:
+      context: ./Sonnuri_Server
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Sonnuri_Server:/app
