@@ -54,7 +54,7 @@ git clone https://github.com/ParkTjgus/sonnuri.git
 3. 프로젝트를 다운로드(클론)한 폴더에서 cmd 창을 켜 아래 명령어를 입력하여 프로젝트를 실행합니다.
    - 주의: 폴더명에 한국어가 포함될 시, 실행이 안될 수 있습니다.
    ```bash
-   docker-compose up --build -d
+   docker-compose up --build
    ```
 4. http://localhost:5173/ 에 접속합니다.
 
